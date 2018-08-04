@@ -7,7 +7,11 @@
     <title>Nick's Website</title>
 </head>
 <body>
+<iframe id="CurFrame" src="Resume.html" width="800" height="400">
+    <p>Your browser does not support iframes.</p>
+</iframe>
+    <button type="button" onclick='document.getElementById("CurFrame").src="Resume.html"'> Resume</button>
+    <button type="button" onclick='document.getElementById("CurFrame").src="Dynmap.html"'> Map</button>
     Testing website
-    <a href="dynmap.html">Dynmap</a>
 </body>
 </html>

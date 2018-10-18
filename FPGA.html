@@ -5,6 +5,26 @@
     <title>FPGA Experience</title>
 </head>
 <body>
-Show details of FPGA experience
+<p>I took ECE3829 in the Fall of 2017, which taught designing digital circuits with an FPGA. The first lab
+was a tutorial of the Vivado Software for programming the FPGA in Verilog. The other three lab projects had us implement
+a variety of circuit designs and IO. </p>
+<p>Lab 2 had my partner and I design a circuit to drive a VGA display and respond to a light sensor.
+We designed the controller to drive the colors of the VGA display. The VGA display would display 1 of 4
+patterns based on the input from 2 switches and vary the colors in some based on the light sensor
+readings. The full details can be found in the report available for download</p>
+<p><a href="Files/PDFs/Lab 2_VGA-Display-and-Light-Sensor-Interface.pdf" download>Download Report 2</a></p>
+
+<p>The third lab expanded on lab 2 by adding modules that would drive a Digital to Analog Converter
+that would act as a function generator. This function generator could create a sinewave, a square wave,
+a sawtooth wave, and a triangle wave. The VGA module was modified to allow for a block on screen
+to be moved in a 2-dimensional grid. This lab also had us implement a test fixture in Vivado to simulate
+the Waveform generator. Full details can be found in the report available for download</p>
+<p><a href="Files/PDFs/Lab 3_DAC-Waveform-Generation-Digital-System-Designs-with-FPGAs.pdf" download>Download Report 3</a></p>
+<p>The fourth lab added an embedded microprocessor to the FPGA called the Microblaze microcontroller.
+This microcontroller was programmed in C and meant to process strings input through a serial connection
+from a computer and output a response to a serial window. Additional circuits were reused from previous
+labs to drive a seven segment display for use with the microcontroller. The full details can be found in
+    the report available for download</p>
+<p><a href="Files/PDFs/Lab 4_Design-of-a-MicroBlaze-MCS-based-System.pdf" download>Download Report 4</a></p>
 </body>
 </html>

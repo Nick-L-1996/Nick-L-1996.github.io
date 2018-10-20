@@ -1,17 +1,19 @@
 <!-- Author: Nick
 -->
 <!DOCTYPE html>
+<link rel="stylesheet" href="Files/CSS/SiteStyle.css">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <title>Nicholas Lanotte - Online Portfolio</title>
 </head>
+<body class="doc">
+<div align="center" style="width:100%; margin-left: 0; padding-left: 0" >
+    <div class="navbar" id="header;"  >
+    <h1> Website is in progress. Please ignore the appearance</h1>
 
-<body>
-    <div id="header" position = "fixed">
-    <h1 background-color #FFFFFF> Website is in progress. Please ignore the appearance</h1>
-
-    <button type="button" onclick='document.getElementById("CurFrame").src="Bio.html"'> Bio</button>
+    <button type="button" onclick='document.getElementById("CurFrame").src="Bio.html"'> About</button>
     <button type="button" onclick='document.getElementById("CurFrame").src="Resume.html"'> Resume</button>
     <button type="button" onclick='document.getElementById("CurFrame").src="Nantucket_IQP.html"'> IQP</button>
     <button type="button" onclick='document.getElementById("CurFrame").src="RBE_Proj.html"'> Robotics Projects</button>
@@ -20,12 +22,13 @@
     <button type="button" onclick='document.getElementById("CurFrame").src="Soft_Eng.html"'> Software Engineering</button>
     <button type="button" disabled onclick='document.getElementById("CurFrame").src="Dynmap.html"'> Map</button>
     </div>
-    
-    <iframe id="CurFrame" src="Bio.html" width="100%" height="1000">
-        <p>Your browser does not support iframes.</p>
-    </iframe>
-</body>
-<footer>
-    <p>Created from scratch by Nicholas Lanotte. Website last updated on 10/18/2018</p>
+
+    <div align="center">
+        <iframe id="CurFrame" src="Bio.html" width="100%" height="880"></iframe>
+    </div>
+</div>
+<footer class="footer">
+    <p>Created from scratch by Nicholas Lanotte. Website last updated on 10/19/2018</p>
 </footer>
+</body>
 </html>

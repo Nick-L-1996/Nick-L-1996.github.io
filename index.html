@@ -2,14 +2,23 @@
 -->
 <!DOCTYPE html>
 <link rel="stylesheet" href="Files/CSS/SiteStyle.css">
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
 
     <title>Nicholas Lanotte - Online Portfolio</title>
 </head>
-<body class="doc">
-<div align="center" style="width:100%; margin-left: 0; padding-left: 0" >
+<script>
+    window.onload = function(){
+        document.getElementById("CurFrame").height=window.innerHeight-140;
+    };
+    function resizeframe(){
+        document.getElementById("CurFrame").height=window.innerHeight-140;
+    }
+</script>
+<body class="doc" onresize="resizeframe()" >
+<div align="center" style="width:100%; height: 100%; margin-left: 0; padding-left: 0" >
     <div class="navbar" id="header;"  >
     <h1> Website is in progress. Please ignore the appearance</h1>
 
@@ -23,8 +32,8 @@
     <button type="button" disabled onclick='document.getElementById("CurFrame").src="Dynmap.html"'> Map</button>
     </div>
 
-    <div align="center">
-        <iframe id="CurFrame" src="Bio.html" width="100%" height="880"></iframe>
+    <div align="center" style="height: 100%">
+        <iframe  id="CurFrame" src="Bio.html" width="100%"></iframe>
     </div>
 </div>
 <footer class="footer">

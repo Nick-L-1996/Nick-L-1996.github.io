@@ -2,7 +2,7 @@
 -->
 <!DOCTYPE html>
 <link rel="stylesheet" href="Files/CSS/SiteStyle.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -20,27 +20,42 @@
 <body class="doc" onresize="resizeframe()" >
 <div align="center" style="width:100%; height: 100%; margin-left: 0; padding-left: 0" >
     <div class="navbar" id="header;"  >
-    <h1> Website is in progress. Please ignore the appearance</h1>
+    <h1 class="websiteheader">Nicholas Lanotte - Online Portfolio</h1>
+    </div>
 
-    <button type="button" onclick='document.getElementById("CurFrame").src="Bio.html"'> Home</button>
-    <button type="button" onclick='document.getElementById("CurFrame").src="Resume.html"'> Resume</button>
-    <button type="button" onclick='document.getElementById("CurFrame").src="RBE_Proj.html"'> Robotics Projects</button>
-    <button type="button" onclick='document.getElementById("CurFrame").src="FPGA.html"'> FPGA Projects</button>
-    <button type="button" onclick='document.getElementById("CurFrame").src="Soft_Eng.html"'> Software Engineering</button>
-    <button type="button" onclick='document.getElementById("CurFrame").src="Nantucket_IQP.html"'> IQP</button>
-    <button type="button" onclick='document.getElementById("CurFrame").src="Landmine_Det_Rov_MQP.html"'> MQP</button>
-    <button type="button" onclick='document.getElementById("CurFrame").src="Internships.html"'> Internships</button>
-    <button type="button" onclick='document.getElementById("CurFrame").src="Lumikha3D.html"'> Lumikha 3D</button>
+    <div class="navbar2">
+        <button type="button"  onclick='document.getElementById("CurFrame").src="Bio.html"'> Home</button>
+        <button type="button" onclick='document.getElementById("CurFrame").src="Resume.html"'> Resume</button>
+        <button type="button"  onclick='document.getElementById("CurFrame").src="Nantucket_IQP.html"'> IQP</button>
+        <button type="button"  onclick='document.getElementById("CurFrame").src="Landmine_Det_Rov_MQP.html"'> MQP</button>
+        <button type="button"  onclick='document.getElementById("CurFrame").src="Lumikha3D.html"'> Lumikha 3D</button>
+        <button type="button" onclick='document.getElementById("CurFrame").src="Internships.html"'> Internships</button>
+        <button type="button"  onclick='document.getElementById("CurFrame").src="Soft_Eng.html"'> Software Engineering</button>
+        <button type="button" onclick='document.getElementById("CurFrame").src="RBE_Proj.html"'> Robotics Projects</button>
+        <button type="button" onclick='document.getElementById("CurFrame").src="FPGA.html"'> FPGA Projects</button>
+        <!--<div class="dropdown">
+            <button class="dropbtn">More
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <button type="button"  onclick='document.getElementById("CurFrame").src="Soft_Eng.html"'> Software Engineering</button>
+                <button type="button" onclick='document.getElementById("CurFrame").src="RBE_Proj.html"'> Robotics Projects</button>
+                <button type="button" onclick='document.getElementById("CurFrame").src="FPGA.html"'> FPGA Projects</button>
+            </div>
+        </div>-->
+    </div>
+
 
    <!-- <button type="button" disabled onclick='document.getElementById("CurFrame").src="Dynmap.html"'> Map</button>
     -->
-    </div>
-        <div align="center" style="height: 100%">
-        <iframe  id="CurFrame" src="Bio.html" class="contentWindow"></iframe>
-    </div>
+
+
+    <iframe  id="CurFrame" align="center" src="Bio.html" class="contentWindow"></iframe>
+
 </div>
 <footer class="footer">
     <p>Website last updated on 7/9/2019</p>
 </footer>
+
 </body>
 </html>

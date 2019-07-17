@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="Files/CSS/SubpagesStyles.css">
 <head>
     <meta charset="UTF-8">
     <title>Robotics Projects</title>
@@ -7,7 +8,9 @@
 <body>
 <h1>Robotics Projects</h1>
 <p>This page details all of my robotics projects from the robotics course sequence at WPI.</p>
+<div width="100%">
 <h2>Robotics 1001 Project</h2>
+<iframe class="image" src="https://drive.google.com/file/d/1kYEsxfIkMgYvqHc7zdtb2Lkhzv_WvjQZ/preview" width="640" height="480" align="left"></iframe>
    <p>I took the introductory robotics course from January to March in 2016. This course introduced me to
    programming and basic electrical circuit design. This course consisted of short labs and a final project robot.
    This robot needed to be designed to complete obstacles in a field with another robot competing at the same
@@ -18,8 +21,12 @@
    for extra points. Our robot was one of the only ones in the class to successfully execute an autonomous program.
    Unfortunately, many of the documents for this class have been lost but below is a short video clip of one of the
    rounds in the competition.</p>
-<iframe src="https://drive.google.com/file/d/1kYEsxfIkMgYvqHc7zdtb2Lkhzv_WvjQZ/preview" width="640" height="480"></iframe>
+</div>
+<div class="divider"></div>
+
+<div>
 <h2>Robotics 2001 Project</h2>
+    <p><img src="Files/Images/RBE2001Robot.png" width="600px" height="475" align="left"></p>
     <p>I took Robotics 2001 in the fall of 2016. This class focused on the mechanical side of robotics. For the final project, the robot need to
     insert and remove plastic rods from holders using a 4-bar mechanism on a playing field. The robot also needed to communicate
     with a base station. Some of these messages include a heartbeat, start, stop and status messages. This task
@@ -27,9 +34,13 @@
     4-bar mechanism and motor torque calculations. The robot navigated the field by following black lines between storage
     areas. My role on the team was mainly to program the robot but I also did a large amount of the design calculations.
         The final report can be downloaded below, which included the calculations and final code.</p>
-<p><img src="Files/Images/RBE2001Robot.png" width="600px" height="475"></p>
+
 <p><a href="Files/PDFs/RBE-2001-Team-20-Final-Project-Report.pdf" download>Download Final Report</a></p>
-<h2>Robotics 2002 Project</h2>
+</div>
+<div class="divider2"></div>
+<div>
+    <h2>Robotics 2002 Project</h2>
+    <iframe src="https://drive.google.com/file/d/0B1OuJmx3DwMeWHF4ZTFpa0hhSkU/preview" width="640" height="480" align="left"></iframe>
 <p>
     I took Robotics 2002 in the spring of 2017. This class focused on sensing the environment. For the final project we had to design a robot to autonomously
     navigate a maze and extinguish a lit candle. Our design was unique in that we used a Nintendo WiiMote to sense the
@@ -38,10 +49,12 @@
     the maze. Once the flame was found, the rotating platform would keep the fan aimed at the candle until the Robot became
     close enough to put it out. The robot used ultrasonic sensors to keep itself following the wall and could detect if
     it were about to move off of a cliff. More details can be found in the video. The lab report can also be found below.</p>
-    <iframe src="https://drive.google.com/file/d/0B1OuJmx3DwMeWHF4ZTFpa0hhSkU/preview" width="640" height="480"></iframe>
+
     <p><a href="Files/PDFs/Team_12_Final_Report.pdf" download>Download Final Report</a></p>
 
-
+</div>
+<div class="divider3"></div>
+<div>
 <h2>Robotics 3001 Project</h2>
 <p>I took Robotics 3001 in the spring of 2018. This class focused on controlling a 3-degree of freedom robotic manipulator. We used
 MATLAB to complete a series of labs that built toward the final project. The final project combined computer vision with
@@ -51,11 +64,15 @@ sensors meaningless for the weights we were tasked at measuring. The code my tea
 of different weights if the sensors were reliable. I took the lead in this project, writing most of the robot code, mostly because
 I enjoy coding so much. I added some bonus features for extra credit and created an in-depth video of the experience. This video
     can be found below and details the robot's functions. The final lab report for this class is also available for download.</p>
-<p><img src="Files/Images/3001RobotArm.jpeg" width="600" height="450"></p>
+    <p><a href="Files/PDFs/RBE3001-FinalLabReport.pdf" download>Download Final Report</a></p>
+<p><img class="imagec" src="Files/Images/3001RobotArm.jpeg" width="600" height="450"></p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nhnqXaSwVt0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<p><a href="Files/PDFs/RBE3001-FinalLabReport.pdf" download>Download Final Report</a></p>
+<iframe class="imagec" width="560" height="315" src="https://www.youtube.com/embed/nhnqXaSwVt0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+</div>
+<div>
 <h2>Robotics 3002 Project</h2>
+    <p><img src="Files/Images/TurtleBot3Image.jpeg" align="right"> </p>
 <p>I took Robotics 3002 later in the spring of 2018. This class focused on using the Robot Operating System (ROS) to program
 the robot to map and explore a maze. There were 4 labs that built up the code needed to complete the final lab. The first lab was
 a tutorial in ROS. The second had us program basic movement functions for the robot. The third lab had us implement an A-Star
@@ -65,7 +82,7 @@ search algorithm to explore a maze. The fourth lab had us implement obstacle exp
     transformed reference frames so that the location of the robot was incorrect, affecting the robot's ability to accurately path plan.
     Full details of this experience can be found in the lab report available for download below
 </p>
-<p><img src="Files/Images/TurtleBot3Image.jpeg"> </p>
 <p><a href="Files/PDFs/Lab-5-Report.pdf" download>Download Final Report</a></p>
+</div>
 </body>
 </html>

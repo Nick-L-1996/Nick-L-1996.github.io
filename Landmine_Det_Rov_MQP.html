@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="Files/CSS/SubpagesStyles.css">
 <head>
     <meta charset="UTF-8">
     <title>Autonomous Landmine Detection Rover</title>
 </head>
 <body>
 <h1>Major Qualifying Project - Autonomous Landmine Detection Rover</h1>
-<img src = "Files/Images/MQP_Robot.jpg" alt="Autonomous Landmine Detection Rover " width="600" height="400">
+<img src = "Files/Images/MQP_Robot.jpg" alt="Autonomous Landmine Detection Rover " width="600" height="400" class="imagec">
 <p style="padding-top: 10px">My Major Qualifying Project at WPI was to design an autonomous rover capable of detecting landmines with small amounts of metal
 and physically mark them on the ground so that an octocopter drone could drop a sandbag on it to detonate. The goal between this rover
 and the flying drone was to remove human and animal operators from the minefields, automating the entire process from searching to removal
     of landmines. This page will summarize my contributions to the project. The report with full details can be downloaded by the link posted
     at the bottom of the page.
 
+<div>
 <h2>Sensor Arm</h2>
-<p1>My main contribution to the project was the creation of the Sensor Arm, housing all of the sensors for landmine detection and the marking
+<p1>
+    <img class="image" src="Files/Images/SensorPlatformSlim.PNG" alt="Image of Sensor Arm" width="500" height="350"align="right"></p1>My main contribution to the project was the creation of the Sensor Arm, housing all of the sensors for landmine detection and the marking
 system. The main landmine detection sensor was the metal detector located inside the ring shown in the image below. The linear slide
 that the sensor arm is attached to allows for the metal detector to be swept across the front of the rover. The metal detector could detect 1g
     of metal at depths less than 3 inches which was a project goal since the landmines we were targeting were typically buried at
@@ -33,9 +36,10 @@ team-made video below. Please note that the spray can was intentionally loaded u
 were in a public park.</p1>
 <p1>The sensor arm was controlled by two arduino controllers, one converting the audio output of the metal detector into a digital form,
 for further processing on a raspberry pi, and the other arduino being used to control the marking system and read in the ultrasonic sensor data.
-In summary, I designed the mechanical components shown in the CAD model below, configured the electronics and wrote all of the software on the arduinos. </p1>
+In summary, I designed the mechanical components shown in the CAD model below, configured the electronics and wrote all of the software on the arduinos.
 
-<img src="Files/Images/SensorPlatformSlim.PNG" alt="Image of Sensor Arm" width="500" height="350">
+
+</div>
 
 <h2>Raspberry Pi Programming</h2>
 <p1>The sensor arm communicated with a raspberry pi located in the black box of the rover. This raspberry pi was on a network along with another
@@ -47,10 +51,10 @@ the linear slide and four bar mechanism was mainly written by other members of t
     of the rover, coordinating with the navigation software running on the main computer.
 </p1>
 
-<p> The school interviewed us and created a video shown below.
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/LhUmatv10n4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p> The school interviewed us and created a video shown below.</p>
+    <iframe class="imagec" width="560" height="315" src="https://www.youtube.com/embed/LhUmatv10n4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p>The team produced a short video for project presentation day shown below.
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/djXGZTLZnmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-<p>The report can be downloaded from WPI <a href="https://digitalcommons.wpi.edu/mqp-all/6868/" target="_blank">here</a>.</p>
+    <iframe class="imagec" width="560" height="315" src="https://www.youtube.com/embed/djXGZTLZnmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>The report can be downloaded from WPI  <a href="https://digitalcommons.wpi.edu/mqp-all/6868/" target="_blank">here</a>. </p>
 </body>
 </html>
